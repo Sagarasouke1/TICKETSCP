@@ -7,7 +7,7 @@
         $email_reg=MysqlQuery::RequestPost('email_reg');
 
         $asunto="Registro de cuenta en LinuxStore";
-        $cabecera="From: LinuxStore El Salvador<linuxstore@hifenix.com>";
+        $cabecera="From: implementacion.scp@gmail.com";
         $mensaje_mail="Hola ".$nombre_reg.", Gracias por registrarte en LinuxStore El Salvador. Los datos de cuenta son los siguientes:\nNombre Completo: ".$nombre_reg."\nNombre de usuario: ".$user_reg."\nClave: ".$clave_reg2."\nEmail: ".$email_reg."\n Página principal: http://www.linuxstore.com/index.php";
 
         

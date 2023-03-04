@@ -81,3 +81,5 @@ class MysqlQuery {
         return $sql;
     }
 }
+
+?>
