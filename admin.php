@@ -14,7 +14,7 @@ if($_SESSION['tipo']!="admin"){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Administracion</title>
+        <title>Administrador</title>
         <?php include "./inc/links.php"; ?>        
     </head>
     <body>   
